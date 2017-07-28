@@ -408,6 +408,8 @@ class ViewController: UIViewController {
         }
 */
         
+        
+        
         if (tempSymbol.PriceIncreased)!{
             self.s_PctChange.text = "+" +  (tempSymbol.PctChange?.description)! + "%"
             self.paintPctChangeGreenColor()
