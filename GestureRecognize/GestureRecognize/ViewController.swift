@@ -378,9 +378,6 @@ class ViewController: UIViewController {
         
     }
  
-    
-    
-    
     func getNextSymbol(goNextSymbol: AnyObject){
         NSLog("Before: Count = \(count)")
         NSLog("goNextSymbol = \(goNextSymbol)")
